@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#f1f5f9]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tailwind Starter</title>
+  </head>
+  <body class="flex justify-center items-center h-screen">
+    <article
+      class="bg-white p-6 rounded-xl flex flex-col items-center space-y-3 mx-8 shadow-2xl my-6 md:flex-row">
+      <img
+        src="img/headphone.png"
+        class="h-52 hover:scale-105 duration-200 mt-2 mb-6 md:mx-6" />
+      <div class="flex flex-col items-center space-y-3 md:items-start md:mx-6">
+        <span class="bg-black text-white rounded-full px-3 py-1 text-sm"
+          >Free Shipping</span
+        >
+        <h2 class="text-2xl text-center font-medium max-w-sm md:text-left">
+          Razer Kraken Kitty Edt Gaming Headset Quartz
+        </h2>
+        <p class="line-through">$799</p>
+        <h3 class="text-5xl font-bold">$599</h3>
+        <span class="text-center text-sm text-gray-400"
+          >This offer is valid until April 3rd or as long as stock lasts!</span
+        >
+        <button
+          class="bg-blue-500 text-white rounded-lg py-4 w-full hover:bg-blue-800 duration-300 hover:py-5 active:py-3 active:duration-100">
+          Add to cart
+        </button>
+        <section class="flex justify-start items-center w-full space-x-2 group">
+          <div
+            class="h-3 w-3 bg-green-500 rounded-full group-hover:animate-ping"></div>
+          <span class="text-sm">50+ pcs. in stock</span>
+        </section>
+        <div
+          class="flex flex-col space-y-4 w-full md:flex-row md:space-y-0 md:space-x-4">
+          <button
+            class="text-black rounded-lg py-3 w-full duration-300 border-2 border-zinc-300 flex items-center justify-center hover:-translate-y-0.5 hover:shadow-lg active:py-3 active:duration-100">
+            <img class="h-8 mr-3" src="img/weight.png" alt="" />
+            Add to cart
+          </button>
+          <button
+            class="text-black rounded-lg py-3 w-full duration-300 border-2 border-zinc-300 flex items-center justify-center hover:-translate-y-0.5 hover:shadow-lg active:py-3 active:duration-100">
+            <img class="h-8 mr-3" src="img/heart.png" alt="" />
+            Add to wishlist
+          </button>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
