@@ -4,4 +4,4 @@ The goal for this project was to implement a mini project without following the 
 
 You can view the original project on the following link: https://tailwindfromscratch.com/mini-projects/product-modal/
 
-And also you can view the version I did here: """UPLOAD TO GHPAGES"""
+And also you can view the version I did here: https://javiervargas02.github.io/product-modal-tailwind/
